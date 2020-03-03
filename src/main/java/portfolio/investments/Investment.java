@@ -2,14 +2,14 @@ package portfolio.investments;
 
 import java.util.Objects;
 
-public abstract class Investment {
+public abstract class Investment{
     private String titel;
     private String country;
     private double singlePrice;
     private double count;
 
     public Investment(String titel) {
-        this.titel       = titel;
+        this.titel = titel;
         this.country = "Schweiz";
         this.count = 1.0;
         this.singlePrice = 1.0;
